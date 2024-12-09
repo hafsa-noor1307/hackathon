@@ -1,0 +1,111 @@
+.heroSection {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #7e33e0;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .topBar {
+    font-size: 14px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .searchBar {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .searchBar input {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .searchBar button {
+    background-color: #f7444e;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .heroContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .textSection {
+    max-width: 50%;
+  }
+  
+  .textSection p:first-child {
+    color: #f7444e;
+    font-weight: bold;
+  }
+  
+  .textSection h1 {
+    font-size: 36px;
+    color: #000;
+  }
+  
+  .textSection p {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .shopNow {
+    background-color: #f7444e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .imageSection {
+    position: relative;
+  }
+  
+  .chairImage {
+    width: 300px;
+    height: auto;
+  }
+  
+  .discountBadge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #00bfff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  
